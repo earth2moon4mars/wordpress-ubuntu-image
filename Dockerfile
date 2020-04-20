@@ -12,7 +12,7 @@ RUN apt-get update && \
 
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 #RUN mkdir /var/www/wordpress
-RUN curl -o /var/www/wordpress.tar.gz http://storage.jd.local/bucket-wordpress/wordpress-5.4.tar.gz
+RUN curl -o /var/www/wordpress.tar.gz http://your storage server/wordpress-5.4.tar.gz
 
 WORKDIR /var/www
 
